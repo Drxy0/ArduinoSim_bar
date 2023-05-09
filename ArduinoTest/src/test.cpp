@@ -17,20 +17,20 @@ void progressBar::setButton(){
     GetWindowText(bar.hSet, text, 10);
     int k = atoi(text);
     if (k<0)
-        updateNakadashi(0);
+        updateN(0);
     else if (k>1023)
-       updateNakadashi(1023);
+       updateN(1023);
     else
-        updateNakadashi(k);
+        updateN(k);
 }
 
-void progressBar::updateNakadashi(int k){
-        nakadashi = k;
+void progressBar::updateN(int k){
+        n = k;
         char vr[4];
-        itoa(nakadashi, vr, 10);
+        itoa(n, vr, 10);
         SetWindowText(hTrenutnaVrijednost, vr);
         analogWrite(A0, k);
-        int index = nakadashi / 100;
+        int index = n / 100;
         SendMessage(hBar, STM_SETIMAGE, IMAGE_BITMAP, (LPARAM) nag_images[index]);
     }
 
@@ -80,7 +80,7 @@ int progressBar::isVisible()
 
 void progressBar::readA0(){
     int k = analogRead(A0);
-    updateNakadashi(k);
+    updateN(k);
 }
 
 void progressBar::changeLoop(){
@@ -120,7 +120,7 @@ LRESULT CALLBACK WindowProcedure (HWND hwnd, UINT message, WPARAM wParam, LPARAM
                 bar.hideGUI();
         case WM_CREATE:
             bar.InitGUI(hwnd);
-            bar.updateNakadashi(0);
+            bar.updateN(0);
             break;
 
         case WM_DESTROY:
