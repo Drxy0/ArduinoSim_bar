@@ -6,8 +6,8 @@
 class progressBar{
     public:
         progressBar();
-        int nakadashi;
-        void updateNakadashi(int);
+        int n;
+        void updateN(int);
         virtual ~progressBar();
         void LoadImages();              //Ucitavanje slika
         HBITMAP nag_images[11];
