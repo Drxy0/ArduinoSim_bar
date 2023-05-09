@@ -10,7 +10,7 @@ class progressBar{
         void updateNakadashi(int);
         virtual ~progressBar();
         void LoadImages();              //Ucitavanje slika
-        HBITMAP nag_images[10];
+        HBITMAP nag_images[11];
         void InitGUI(HWND);
         void DrawTrenutnaVrijednost();
         HWND hBar, hTrenutnaVrijednost, hSet;
