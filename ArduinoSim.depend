@@ -1,0 +1,676 @@
+# depslib dependency file v1.0
+1683062951 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\main.cpp
+	<arduinoSimulator.h>
+
+1683062951 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1683122704 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\arduinoplatform.h
+	"windows.h"
+
+1683135770 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1682587209 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\demo.h
+
+1682587210 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1682587210 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\data.cpp
+	"data.h"
+
+1682587209 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1682587210 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\tasks.h
+
+1683211910 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+	<data.h>
+
+1682587210 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\interrupts.h
+
+1682587210 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\pwm.h
+
+1683133706 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	<segmentDisplay.h>
+
+1682587209 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1682587210 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1682587210 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1682587211 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1682587211 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+
+1683135711 source:c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1683135214 c:\users\mihailo\documents\arduino sim v -12\arduinosimv13\include\segmentdisplay.h
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\main.cpp
+	<arduinoSimulator.h>
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1683885196 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\arduinoplatform.h
+	"windows.h"
+
+1683885347 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\demo.h
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\tasks.h
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\interrupts.h
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\data.cpp
+	"data.h"
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1683722608 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+	<data.h>
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\pwm.h
+
+1683795546 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	<segmentDisplay.h>
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new\include\segmentdisplay.h
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\main.cpp
+	<arduinoSimulator.h>
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1683897783 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\arduinoplatform.h
+	"windows.h"
+
+1683897604 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\demo.h
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\tasks.h
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\interrupts.h
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\data.cpp
+	"data.h"
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1683795546 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	<segmentDisplay.h>
+
+1683900553 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\segmentdisplay.h
+	<windows.h>
+	<iostream>
+	"arduinoPlatform.h"
+	"serial.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1683212696 c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\include\pwm.h
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1683212696 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+
+1683897578 source:c:\users\drljo\desktop\arduinosimulator vojinovic new - copy\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+
+1683212696 source:c:\users\drljo\desktop\savestate1\main.cpp
+	<arduinoSimulator.h>
+
+1683212696 c:\users\drljo\desktop\savestate1\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1683897783 c:\users\drljo\desktop\savestate1\include\arduinoplatform.h
+	"windows.h"
+
+1683897604 source:c:\users\drljo\desktop\savestate1\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1683212696 c:\users\drljo\desktop\savestate1\include\demo.h
+
+1683212696 c:\users\drljo\desktop\savestate1\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1683212696 c:\users\drljo\desktop\savestate1\include\tasks.h
+
+1683212696 c:\users\drljo\desktop\savestate1\include\interrupts.h
+
+1683212696 c:\users\drljo\desktop\savestate1\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\savestate1\src\data.cpp
+	"data.h"
+
+1683212696 c:\users\drljo\desktop\savestate1\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1683897578 source:c:\users\drljo\desktop\savestate1\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+
+1683212696 c:\users\drljo\desktop\savestate1\include\pwm.h
+
+1683795546 source:c:\users\drljo\desktop\savestate1\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	<segmentDisplay.h>
+
+1683900624 c:\users\drljo\desktop\savestate1\include\segmentdisplay.h
+	<windows.h>
+	<iostream>
+	"arduinoPlatform.h"
+	"serial.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1683212696 source:c:\users\drljo\desktop\savestate1\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1 - copy\main.cpp
+	<arduinoSimulator.h>
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1683897783 c:\users\drljo\desktop\savestate1 - copy\include\arduinoplatform.h
+	"windows.h"
+
+1683902252 source:c:\users\drljo\desktop\savestate1 - copy\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\demo.h
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1 - copy\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\tasks.h
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\interrupts.h
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\savestate1 - copy\src\data.cpp
+	"data.h"
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1683897578 source:c:\users\drljo\desktop\savestate1 - copy\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+
+1683212696 c:\users\drljo\desktop\savestate1 - copy\include\pwm.h
+
+1683902225 source:c:\users\drljo\desktop\savestate1 - copy\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	<segmentDisplay.h>
+
+1683902484 c:\users\drljo\desktop\savestate1 - copy\include\segmentdisplay.h
+	<windows.h>
+	<iostream>
+	"arduinoPlatform.h"
+	"serial.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1 - copy\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1 - copy\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1683212696 source:c:\users\drljo\desktop\savestate1 - copy\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1683212696 source:c:\users\drljo\desktop\savestate1 - copy\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+
+1683212696 source:c:\users\drljo\desktop\finished\main.cpp
+	<arduinoSimulator.h>
+
+1683212696 c:\users\drljo\desktop\finished\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1683902881 c:\users\drljo\desktop\finished\include\arduinoplatform.h
+	"windows.h"
+
+1683902747 source:c:\users\drljo\desktop\finished\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1683212696 c:\users\drljo\desktop\finished\include\demo.h
+
+1683212696 c:\users\drljo\desktop\finished\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1683212696 source:c:\users\drljo\desktop\finished\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1683212696 c:\users\drljo\desktop\finished\include\tasks.h
+
+1683212696 c:\users\drljo\desktop\finished\include\interrupts.h
+
+1683212696 c:\users\drljo\desktop\finished\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\finished\src\data.cpp
+	"data.h"
+
+1683212696 c:\users\drljo\desktop\finished\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1683902541 source:c:\users\drljo\desktop\finished\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+
+1683212696 c:\users\drljo\desktop\finished\include\pwm.h
+
+1683212696 source:c:\users\drljo\desktop\finished\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1683212696 source:c:\users\drljo\desktop\finished\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1683212696 source:c:\users\drljo\desktop\finished\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1683212696 source:c:\users\drljo\desktop\finished\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+
+1683902723 source:c:\users\drljo\desktop\finished\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	<segmentDisplay.h>
+
+1683902693 c:\users\drljo\desktop\finished\include\segmentdisplay.h
+	<windows.h>
+	<iostream>
+	"arduinoPlatform.h"
+	"serial.h"
+
+1683212696 source:c:\users\drljo\desktop\finished - copy\main.cpp
+	<arduinoSimulator.h>
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1683902881 c:\users\drljo\desktop\finished - copy\include\arduinoplatform.h
+	"windows.h"
+
+1683902747 source:c:\users\drljo\desktop\finished - copy\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\demo.h
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1683212696 source:c:\users\drljo\desktop\finished - copy\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\tasks.h
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\interrupts.h
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1683212696 source:c:\users\drljo\desktop\finished - copy\src\data.cpp
+	"data.h"
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1683902541 source:c:\users\drljo\desktop\finished - copy\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+
+1683212696 c:\users\drljo\desktop\finished - copy\include\pwm.h
+
+1683902895 source:c:\users\drljo\desktop\finished - copy\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	"progressBar.h"
+
+1683902857 c:\users\drljo\desktop\finished - copy\include\progressbar.h
+	<windows.h>
+	<iostream>
+	"arduinoPlatform.h"
+	"serial.h"
+
+1683212696 source:c:\users\drljo\desktop\finished - copy\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1683212696 source:c:\users\drljo\desktop\finished - copy\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1683212696 source:c:\users\drljo\desktop\finished - copy\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1683212696 source:c:\users\drljo\desktop\finished - copy\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+
