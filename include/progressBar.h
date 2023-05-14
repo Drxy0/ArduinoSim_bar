@@ -9,7 +9,6 @@
 extern serial Serial;
 HWND hBar, hProcenat;
 HBITMAP pBar_images[11];
-int duzinaPWM, periodPWM;
 HWND hwnd;
 
 extern struct BarParameters bp;
@@ -17,6 +16,7 @@ extern struct BarParameters bp;
 DWORD WINAPI childDisplayLoop(LPVOID lpParam){
     while(true){
         BarParameters* p = (BarParameters*)lpParam;
+        int duzinaPWM, periodPWM;
         int newState = digitalRead(p->pin);
         if (p->oldState == 1  && newState == 0) {
             duzinaPWM = millis() - p->startTime;
