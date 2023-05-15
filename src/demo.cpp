@@ -41,7 +41,7 @@ void setup()
   periodTime = 0;
 
   createTask(brojevi, 1, TASK_ENABLE, NULL);
-  castProgressBar(myPIN, oldState, startTime);
+  castProgressBar(myPIN);
 }
 
 void loop()

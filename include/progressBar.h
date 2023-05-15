@@ -15,17 +15,21 @@ extern struct BarParameters bp;
 
 DWORD WINAPI childDisplayLoop(LPVOID lpParam){
     while(true){
+        static int oldState = 0;
+        static int startTime = millis();
+        static int first = true;
+
         BarParameters* p = (BarParameters*)lpParam;
         int duzinaPWM, periodPWM;
         int newState = digitalRead(p->pin);
-        if (p->oldState == 1  && newState == 0) {
-            duzinaPWM = millis() - p->startTime;
+        if (oldState == 1  && newState == 0) {
+            duzinaPWM = millis() - startTime;
 
-        } else if (p->oldState == 0 && newState == 1) {
+        } else if (oldState == 0 && newState == 1) {
             int time0 = millis();
-            periodPWM = time0 - p->startTime;
-            p->startTime = time0;
-
+            periodPWM = time0 - startTime;
+            startTime = time0;
+            if (!first) {
                 double procenat = duzinaPWM/(double)periodPWM * 100;
                 int index = procenat / 10;
                 char procenatString[4];
@@ -33,9 +37,11 @@ DWORD WINAPI childDisplayLoop(LPVOID lpParam){
                 strcat(procenatString, "%");
                 SetWindowText(hProcenat, procenatString);
                 SendMessageW(hBar, STM_SETIMAGE, IMAGE_BITMAP,(LPARAM)pBar_images[index]);
+                }
+            first = false;
         }
-        p->oldState = newState;
-        }
+        oldState = newState;
+    }
 }
 
 

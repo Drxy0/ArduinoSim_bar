@@ -13,8 +13,6 @@ int const ANALOG_NUM_PINS = 1;
 
 struct BarParameters{
     int pin;
-    int oldState;
-    int startTime;
 };
 
 typedef  struct{
@@ -27,7 +25,7 @@ typedef struct{
        int state[ANALOG_NUM_PINS];
 } analogPinsType;
 
-void castProgressBar(int, int, int);
+void castProgressBar(int);
 
 void digitalWrite(int, int);
 

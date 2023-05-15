@@ -674,3 +674,100 @@
 	"stdio.h"
 	"windows.h"
 
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\main.cpp
+	<arduinoSimulator.h>
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\arduinosimulator.h
+	<windows.h>
+	<arduinoPlatform.h>
+
+1684131671 c:\users\drljo\desktop\arduinosim_bar-main\include\arduinoplatform.h
+	"windows.h"
+
+1684131697 source:c:\users\drljo\desktop\arduinosim_bar-main\src\arduinoplatform.cpp
+	"arduinoPlatform.h"
+	"windows.h"
+	<time.h>
+	<demo.h>
+	<serial.h>
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\demo.h
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\serial.h
+	"Windows.h"
+	"stdlib.h"
+
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\src\arduinosimulator.cpp
+	"arduinoSimulator.h"
+	"arduinoPlatform.h"
+	"tasks.h"
+	"interrupts.h"
+	"serial.h"
+	"GUI.h"
+	"demo.h"
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\tasks.h
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\interrupts.h
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\gui.h
+	<arduinoPlatform.h>
+	<windows.h>
+
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\src\data.cpp
+	"data.h"
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\data.h
+	<iostream>
+	<string>
+	<cmath>
+	<ctime>
+	<tasks.h>
+	<arduinoPlatform.h>
+	<list>
+
+1684131394 source:c:\users\drljo\desktop\arduinosim_bar-main\src\demo.cpp
+	<arduinoPlatform.h>
+	<tasks.h>
+	<interrupts.h>
+	<stdio.h>
+	<serial.h>
+	<pwm.h>
+
+1684059688 c:\users\drljo\desktop\arduinosim_bar-main\include\pwm.h
+
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\src\gui.cpp
+	"GUI.h"
+	"arduinoPlatform.h"
+	"serial.h"
+	"math.h"
+	"progressBar.h"
+
+1684131758 c:\users\drljo\desktop\arduinosim_bar-main\include\progressbar.h
+	<windows.h>
+	<iostream>
+	"arduinoPlatform.h"
+	"serial.h"
+
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\src\interrupts.cpp
+	"interrupts.h"
+	"arduinoPlatform.h"
+	"windows.h"
+	"stdio.h"
+
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\src\pwm.cpp
+	"pwm.h"
+	<math.h>
+	<tasks.h>
+	<arduinoPlatform.h>
+
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\src\serial.cpp
+	"serial.h"
+	"windowsx.h"
+
+1684059688 source:c:\users\drljo\desktop\arduinosim_bar-main\src\tasks.cpp
+	"tasks.h"
+	"arduinoPlatform.h"
+	"stdio.h"
+	"windows.h"
+

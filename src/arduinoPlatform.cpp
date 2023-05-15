@@ -67,10 +67,8 @@ void delay(unsigned long ms){
     while (millis()-startTime<ms);
 }
 
-void castProgressBar(int pin, int oldState, int startTime){
+void castProgressBar(int pin){
     bp.pin = pin;
-    bp.oldState = oldState;
-    bp.startTime = startTime;
     while(hwndDisp == NULL){
         continue;
     }
